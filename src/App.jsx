@@ -5,6 +5,7 @@ import Hero from './Components/Hero-section/Hero'
 import CustomerTickets from './Components/CustomerTickets/CustomerTickets'
 import { Suspense, useState } from 'react'
 import TaskStatus from './Components/TaskStatus/TaskStatus'
+import Footer from './Components/Footer/Footer'
 
 // customer data load 
 const customarData = fetch('/customarData.json')
@@ -13,7 +14,11 @@ const customarData = fetch('/customarData.json')
 function App() {
   // card click to in-progress +++ 
 const [Progress,setProgress] = useState([])
-console.log(Progress)
+
+// complite btn clicked to resolved ------ function 
+const [resolved,setResolved] = useState([])
+
+
   return (
     
      <div className='p-3'>
@@ -21,7 +26,7 @@ console.log(Progress)
        <Navigation></Navigation>
 
        {/* hero section  */}
-       <Hero Progress={Progress}></Hero>
+       <Hero Progress={Progress} resolved={resolved}></Hero>
 
        {/* body  */}
        
@@ -30,10 +35,10 @@ console.log(Progress)
             <CustomerTickets Progress={Progress} setProgress={setProgress} customarData={customarData}></CustomerTickets>
           </Suspense>
 
-          <TaskStatus Progress={Progress}></TaskStatus>
+          <TaskStatus resolved={resolved} setResolved={setResolved} Progress={Progress}></TaskStatus>
           </div>
       
-
+      <Footer></Footer>
      </div>
   
     
