@@ -1,0 +1,92 @@
+[
+  {
+    "id": "TKT-001",
+    "name": "Rahim Ahmed",
+    "problemHeading": "Login Issue",
+    "shortDescription": "Unable to log in after resetting the password.",
+    "date": "2026-09-25",
+    "status": "Open",
+    "priority": "High"
+  },
+  {
+    "id": "TKT-002",
+    "name": "Nusrat Jahan",
+    "problemHeading": "Payment Failed",
+    "shortDescription": "Payment fails when trying to purchase a subscription.",
+    "date": "2026-09-24",
+    "status": "In Progress",
+    "priority": "High"
+  },
+  {
+    "id": "TKT-003",
+    "name": "Tanvir Hasan",
+    "problemHeading": "Profile Update Error",
+    "shortDescription": "Profile information cannot be updated successfully.",
+    "date": "2026-09-23",
+    "status": "Open",
+    "priority": "Medium"
+  },
+  {
+    "id": "TKT-004",
+    "name": "Sadia Islam",
+    "problemHeading": "Email Notification Missing",
+    "shortDescription": "Not receiving email notifications for new tickets.",
+    "date": "2026-09-22",
+    "status": "Resolved",
+    "priority": "Low"
+  },
+  {
+    "id": "TKT-005",
+    "name": "Fahim Rahman",
+    "problemHeading": "Dashboard Not Loading",
+    "shortDescription": "The dashboard remains blank after signing in.",
+    "date": "2026-09-21",
+    "status": "In Progress",
+    "priority": "High"
+  },
+  {
+    "id": "TKT-006",
+    "name": "Mim Akter",
+    "problemHeading": "Password Reset",
+    "shortDescription": "Password reset email is not arriving in the inbox.",
+    "date": "2026-09-20",
+    "status": "Open",
+    "priority": "Medium"
+  },
+  {
+    "id": "TKT-007",
+    "name": "Arif Hossain",
+    "problemHeading": "Slow Website",
+    "shortDescription": "Website pages are taking too long to load.",
+    "date": "2026-09-19",
+    "status": "In Progress",
+    "priority": "Medium"
+  },
+  {
+    "id": "TKT-008",
+    "name": "Jannatul Ferdous",
+    "problemHeading": "Account Locked",
+    "shortDescription": "Account was locked after several failed login attempts.",
+    "date": "2026-09-18",
+    "status": "Resolved",
+    "priority": "High"
+  },
+  {
+    "id": "TKT-009",
+    "name": "Sakib Khan",
+    "problemHeading": "Incorrect Invoice",
+    "shortDescription": "Invoice shows an incorrect subscription amount.",
+    "date": "2026-09-17",
+    "status": "Open",
+    "priority": "Medium"
+  },
+  {
+    "id": "TKT-010",
+    "name": "Tania Sultana",
+    "problemHeading": "UI Display Issue",
+    "shortDescription": "Some buttons are misaligned on mobile devices.",
+    "date": "2026-09-16",
+    "status": "Resolved",
+    "priority": "Low"
+  }
+]
